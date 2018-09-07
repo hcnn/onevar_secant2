@@ -1,0 +1,15 @@
+{
+  "name": "onevar_secant2",
+  "version": "0.1.0",
+  "repo": "hcnn/onevar_secant2",
+  "description": "Secant Method for Single-Variable Optimization with OnevarSetting as input. Wrapper of onevar_secant function.",
+  "keywords": ["singe-variable optimization", "one-variable optimization", "secant method"],
+  "license": "MIT",
+  "src": ["onevar_secant2.c", "onevar_secant2.h"],
+  "dependencies": {
+    "hcnn/onevar_func_ptr": "0.1.0",
+    "hcnn/onevar_result": "0.2.0",
+    "hcnn/onevar_setting": "0.1.0",
+    "hcnn/onevar_secant": "0.1.2"
+  }
+}
